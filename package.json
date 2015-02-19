@@ -1,0 +1,28 @@
+{
+  "name": "browserify-nodejs-paris",
+  "version": "0.0.1",
+  "description": "Browserify code for Node.js Paris #02/06 (20.02.2015)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DjebbZ/browserify-nodejs-paris.git"
+  },
+  "keywords": [
+    "browserify",
+    "talk",
+    "meetup",
+    "nodejsparis"
+  ],
+  "author": "Khalid Jebbari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DjebbZ/browserify-nodejs-paris/issues"
+  },
+  "homepage": "https://github.com/DjebbZ/browserify-nodejs-paris",
+  "dependencies": {
+    "browserify": "8.x"
+  }
+}
