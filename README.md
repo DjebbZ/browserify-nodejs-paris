@@ -6,4 +6,18 @@ This is the code I used for the talk.
 
 `git clone git@github.com:DjebbZ/browserify-nodejs-paris.git`
 
-`npm install`
+## Usage
+
+The code is organized with git steps. For each step, do :
+
+```
+git checkout [step-number]
+npm install
+npm run build
+```
+
+Then open `index.html` to view the result or browse the source under `src/`.
+
+## Steps
+
+- `1` : Basic usage of Browserify
