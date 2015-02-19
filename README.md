@@ -21,3 +21,4 @@ Then open `index.html` to view the result or browse the source under `src/`.
 ## Steps
 
 - `1` : Basic usage of Browserify
+- `2` : Show usage of core node modules and globals
