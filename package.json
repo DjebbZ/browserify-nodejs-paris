@@ -4,8 +4,7 @@
   "description": "Browserify code for Node.js Paris #02/06 (20.02.2015)",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/index.js -o index.js",
-    "bower-install": "bower install"
+    "build": "browserify src/index.js -o index.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +24,11 @@
   "homepage": "https://github.com/DjebbZ/browserify-nodejs-paris",
   "devDependencies": {
     "browserify": "8.x",
-    "bower": "~1.3.12",
-    "debowerify": "~1.2.0"
+    "babelify": "~5.0.3"
   },
   "browserify": {
     "transform": [
-      "debowerify"
+      "babelify"
     ]
   }
 }

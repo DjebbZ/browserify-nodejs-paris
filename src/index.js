@@ -1,7 +1,4 @@
-var screenfull = require("screenfull");
+var Toto = require("./es6"),
+    toto = new Toto([1,2,3]);
 
-document.getElementById("screenfull").addEventListener("click", function() {
-    if (screenfull.enabled) {
-        screenfull.toggle();
-    }
-});
+document.getElementById("es6").innerHTML = toto.double();
