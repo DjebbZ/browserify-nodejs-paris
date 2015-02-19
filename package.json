@@ -22,16 +22,19 @@
     "url": "https://github.com/DjebbZ/browserify-nodejs-paris/issues"
   },
   "homepage": "https://github.com/DjebbZ/browserify-nodejs-paris",
-  "dependencies": {
-    "browserify": "8.x"
-  },
   "devDependencies": {
-    "browserify-shim": "~3.8.2"
+    "browserify": "8.x",
+    "browserify-shim": "~3.8.2",
+    "deamdify": "~0.1.1"
   },
   "browserify": {
-    "transform": [ "browserify-shim" ]
+    "transform": [
+      "browserify-shim",
+      "deamdify"
+    ]
   },
   "browserify-shim": {
-    "./src/globalVar.js": "globalVar"
+    "./src/globalVar.js": "globalVar",
+    "./src/modulePattern.js": "quaranteDeux"
   }
 }
