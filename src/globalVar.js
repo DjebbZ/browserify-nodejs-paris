@@ -1,0 +1,1 @@
+window.globalVar = "I'm a bad global var. Booo !"

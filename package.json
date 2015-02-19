@@ -24,5 +24,14 @@
   "homepage": "https://github.com/DjebbZ/browserify-nodejs-paris",
   "dependencies": {
     "browserify": "8.x"
+  },
+  "devDependencies": {
+    "browserify-shim": "~3.8.2"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browserify-shim": {
+    "./src/globalVar.js": "globalVar"
   }
 }
