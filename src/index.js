@@ -1,4 +1,3 @@
-var fs = require('fs');
+var cc = require("lodash/string/camelCase");
 
-document.getElementById("code").innerHTML =
-    fs.readFileSync(__dirname + "/index.js", "utf8");
+document.getElementById("page1").innerHTML = cc("Can I haz camel case plz ?");
