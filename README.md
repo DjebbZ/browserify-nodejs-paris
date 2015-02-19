@@ -23,3 +23,4 @@ Then open `index.html` to view the result or browse the source under `src/`.
 - `1` : Basic usage of Browserify
 - `2` : Show usage of core node modules and globals
 - `3` : Transforms : browserify-shim, module pattern, deamdify
+- `4` : debowerify to use a Bower module

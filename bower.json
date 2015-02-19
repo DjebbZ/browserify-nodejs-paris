@@ -1,0 +1,26 @@
+{
+  "name": "browserify-nodejs-paris",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DjebbZ/browserify-nodejs-paris",
+  "authors": [
+    "Khalid Jebbari"
+  ],
+  "description": "A basic bower file to demonstrate debowerify",
+  "keywords": [
+    "bower",
+    "browserify",
+    "transform"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "screenfull": "~2.0.0"
+  }
+}
