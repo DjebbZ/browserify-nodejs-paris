@@ -1,4 +1,4 @@
-var Toto = require("./es6"),
-    toto = new Toto([1,2,3]);
+var fs = require('fs');
 
-document.getElementById("es6").innerHTML = toto.double();
+document.getElementById("code").innerHTML =
+    fs.readFileSync(__dirname + "/index.js", "utf8");
