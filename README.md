@@ -26,3 +26,4 @@ Then open `index.html` to view the result or browse the source under `src/`.
 - `4` : debowerify to use a Bower module
 - `5` : Language transform : ES6 with babelify
 - `6` : File content inlining with brfs
+- `7` : Group common code with factor-bundle
